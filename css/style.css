@@ -1,17 +1,22 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: "Roboto", sans-serif;
 }
 
 nav {
-  float: right;
+  height: 50px;
 }
 
 ul {
   list-style: none;
+  float: right;
+  margin-right: 60px;
+  clear: both;
 }
 li {
-  float: left;
+  display: inline-block;
+  padding: 15px 20px;
 }
 
 h1 {
@@ -51,7 +56,12 @@ a {
 }
 
 section {
-  height: 800px;
+  height: 500px;
+  clear: both;
+}
+
+#about {
+  height: 600px;
 }
 
 .highlightOrange {
@@ -63,10 +73,10 @@ section {
 }
 
 .halfWidth {
-  width: 40%;
+  width: 39%;
   float: left;
   padding-left: 120px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .halfWidth img {
@@ -84,10 +94,11 @@ section {
   margin-right: 5px;
 }
 
-.projects {
+#projects {
   background-color: #f8f9fc;
   margin: auto;
-  padding-top: 60px;
+  padding-top: 20px;
+  height: 690px;
 }
 
 .boxes {
@@ -129,10 +140,6 @@ section {
   color: #fff;
 }
 
-/* .left {
-  margin-left: 50px;
-  margin-top: 60px;
-} */
 .left {
   width: 43%;
   top: 28.5%;
@@ -155,6 +162,7 @@ section {
 }
 
 .inquirySection {
+  height: 550px;
   padding-top: 100px;
   margin-left: -85px;
 }
@@ -186,4 +194,46 @@ section {
 }
 .socialIcons img {
   width: 40px;
+}
+
+.whatIDo {
+  height: 600px;
+  background-color: #67aeff18;
+  text-align: center;
+}
+
+.whatIDo h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 0px;
+  font-size: 70px;
+  padding-top: 80px;
+  padding-bottom: 15px;
+  color: #363958;
+}
+
+.items {
+  margin-top: 60px;
+}
+.singleItem {
+  height: 300px;
+  width: 20%;
+  background-color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 10px;
+  padding-top: 16px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #57565620;
+  margin: 0 10px;
+}
+.singleItem img {
+  width: 30px;
+  background-color: #ff8367;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.singleItem p {
+  font-size: 16px;
 }
