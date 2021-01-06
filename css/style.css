@@ -11,12 +11,15 @@ nav {
 ul {
   list-style: none;
   float: right;
-  margin-right: 60px;
+  margin-right: 90px;
   clear: both;
 }
 li {
   display: inline-block;
   padding: 15px 20px;
+  font-weight: 500;
+  color: #3c3c3c;
+  cursor: pointer;
 }
 
 h1 {
@@ -98,22 +101,25 @@ section {
   background-color: #f8f9fc;
   margin: auto;
   padding-top: 20px;
-  height: 690px;
+  height: 700px;
 }
 
 .boxes {
-  width: 24%;
+  width: 22%;
   float: left;
   background-color: #ffffff;
   padding: 15px 15px;
   margin: 10px 18px;
   border-radius: 10px;
   position: relative;
-  left: 7%;
-  margin-top: 30px;
+  left: 9%;
   box-shadow: 0px 5px 20px #00000035;
 }
 
+.boxes h4 {
+  font-size: 20px;
+  margin: 15px auto;
+}
 .boxes img {
   width: 100%;
 }
@@ -194,6 +200,8 @@ section {
 }
 .socialIcons img {
   width: 40px;
+  cursor: pointer;
+  margin-right: 5px;
 }
 
 .whatIDo {
@@ -236,4 +244,9 @@ section {
 
 .singleItem p {
   font-size: 16px;
+}
+
+.singleItem .title {
+  color: #474747;
+  font-size: 24px;
 }
